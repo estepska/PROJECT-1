@@ -21,14 +21,8 @@ html {
   font-family: Wisdom-Script;
 }
 
-.splash-img {
+.navigation {
   background-image: url("https://d-pt.ppstatic.pl/k/r/1/47/3f/59ce1854cc131_o.jpg?1520628877");
-  position: absolute;
-  display: -ms-flexbox;
-  display: flex;
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative;
 }
 
 .page-title {
@@ -38,8 +32,6 @@ html {
 }
 
 .splash-inner {
-  position: absolute;
-  width: 100%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -118,4 +110,36 @@ html {
 i.fas {
   height: 40%;
 }
-/*# sourceMappingURL=style.css.map */
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-md-4 {
+  -ms-flex: 0 0 33.333333%;
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+
+.col-md-6 {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.col-md-8 {
+  -ms-flex: 0 0 66.666667%;
+  flex: 0 0 66.666667%;
+  max-width: 66.666667%;
+}
+
+.col-md-12 {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}

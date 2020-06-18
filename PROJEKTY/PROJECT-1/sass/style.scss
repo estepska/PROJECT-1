@@ -1,0 +1,143 @@
+html {
+    box-sizing: border-box;
+    -ms-overflow-style: scrollbar;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .nav-item text-warning {
+    font-family: Wisdom-Script;
+  }
+  
+  .navigation {
+    background-image: url("https://d-pt.ppstatic.pl/k/r/1/47/3f/59ce1854cc131_o.jpg?1520628877");
+    
+  }
+  
+  .page-title {
+    font-family: 'Droid Serif Italic';
+    font-weight: bold;
+    font-size: 40px;
+  }
+  
+  .splash-inner {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .services-top h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  
+  .services-top p {
+    font-family: 'Droid Serif', serif;
+    font-size: 16px;
+    font-style: italic;
+    color: #777;
+    margin-bottom: 70px;
+  }
+  
+  .services-content h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #222;
+    margin-top: 24px;
+  }
+  
+  .services-content p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .services-content i.fas {
+    color: white;
+    background: #fed136;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+  }
+  
+  .portfolio {
+    background: #eff2f5;
+  }
+  
+  .h1 {
+    font-family: 'Monserrat';
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .h2 {
+    font-family: 'Droit Serif Italic';
+    font-size: 16px;
+  }
+  
+  .card-title {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .card-title h4 {
+    font-family: 'Droit Serif Italic';
+    font-size: 14px;
+  }
+  
+  .footer-item {
+    font-family: 'Montserrat';
+    font-size: 14px;
+  }
+  
+  i.fas {
+    height: 40%;
+  }
+  .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .col-md-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+  .col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .col-md-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+  .col-md-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+
